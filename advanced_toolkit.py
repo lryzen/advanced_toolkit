@@ -8,13 +8,14 @@ def usrin(prompt=">>> "):
   global usrin
   usrin = input(prompt)
 
-#Take the user input and save only a selected character
+"""#Take the user input and save only a selected character
 def charin(prompt=">>> ", index=0, lower=False):
   global charin
   usrin = input(prompt)
   if lower:
-    charin = usrin[0].lower()
+    charin = usrin[index].lower()
   elif lower == False:
-    charin = usrin[0]
+    charin = usrin[index]
   else:
     raise runtimeError("Error in logic for paramater lower in charin()")
+"""
