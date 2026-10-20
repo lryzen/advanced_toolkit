@@ -1,4 +1,5 @@
 #advanced_toolkit.py
+#After downloading and putting into your python folder remove the file extention. 
 #Define all variable needed globally in functions
 usrin = ''
 charin = ''
